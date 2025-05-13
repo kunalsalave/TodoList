@@ -55,7 +55,7 @@ const Todo = () => {
         <h1>Todo List</h1>
         <h2 className="date-time">{dateTime}</h2>
       </header>
-
+    <marquee>This is Todo List </marquee>
       <TodoForm onAddTodo={handleFormSubmit} />
 
       <section className="myUnOrdList">
